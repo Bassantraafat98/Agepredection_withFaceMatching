@@ -23,12 +23,6 @@ Automatically generates a CSV file containing image names, ages, ethnicities, an
 ```bash
 python Age_Estimator/Age_create_csv.py
 ```
-## Example Output
-
-    image_name  age ethnicity  gender
-0  100_0_0_0.jpg          0     White    Male
-1  100_1_0_0.jpg          1     White  Female
-2  100_2_0_0.jpg          2     White    Male
 
 - **Model Traning**: for model Traning you need to setup the configuration parameters in Age_config.py, this repo contains 2 models for Age estimation Resnet50, and Various Auto Encoder
 for model traning and evaluation
