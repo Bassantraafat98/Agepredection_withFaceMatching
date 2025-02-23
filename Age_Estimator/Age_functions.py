@@ -22,7 +22,7 @@ def train_one_epoch(model, train_loader, loss_fn, optimizer, metric, epoch=1):
             optimizer.step()
             optimizer.zero_grad()
             
-            # By setting n to len(targets), we ensure, that the loss is accurately calculated and updated, regardless of any changes in batch size.
+            # By setting n to len(targets), This ensure that the loss is accurately calculated and updated, regardless of any changes in batch size.
             loss_train.update(loss.item(), n=len(targets))
             metric.update(outputs, targets)
 
