@@ -26,7 +26,7 @@ def create_csv(dataset_folder):
                 writer.writerow(data)
 
 
-# Replace with the actual path to your UTK dataset images folder
+# Path to UTK dataset images folder
 dataset_folder = '/home/bassant-raafat/task/AgeDetector_Facematching/Datasets/utkcropped'
 create_csv(dataset_folder)
 
