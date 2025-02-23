@@ -1,5 +1,5 @@
 import torch
-from Loss import AverageMeter
+from LossAm import AverageMeter
 from tqdm import tqdm
 from Age_config import config
 
