@@ -30,8 +30,6 @@ model = AgePredection(input_dim=3, output_nodes=1, model_name=config['model_name
 loss_fn = nn.L1Loss()
 metric = tm.MeanAbsoluteError().to(config['device'])
 optimizer = optim.SGD(model.parameters(), lr=config['lr'], momentum=0.9, weight_decay=config['wd'])
-
-# Write code to train the model for num_epochs epochs.
 best_loss = torch.inf
 before_model_path = None
 
