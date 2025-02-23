@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Age Estimator and Face matching project utilizes computer vision techniques to estimate the age of individuals based on facial images and apply face matchine for the input images. This repository contains the code to preprocess a dataset of images, and load the data for further analysis or model training.
+The Age Estimator and Face matching project utilizes computer vision techniques to estimate the age of individuals based on facial images and apply face matching for the input images. This repository contains the code to preprocess a dataset of images, and load the data for further analysis or model training.
 
 ## Download Code
 clone the repository:
